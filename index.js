@@ -6,7 +6,7 @@ const db = require('quick.db');
 const { TOKEN, PREFIX, AVATARURL, BOTNAME, } = require(`./config.json`);
 const figlet = require("figlet");
 const client = new Client({ disableMentions: `` , partials: ['MESSAGE', 'CHANNEL', 'REACTION'] });
-client.login("TOKEN");
+client.login("MTQ2MjkxMjAwMTAyNDk4MzIzNg.GrBiOc.WoA4T1HuPmdNNn7_AesoFU2H7mIFR_A2PXb-_g");
 client.commands = new Collection();
 client.setMaxListeners(0);
 client.prefix = PREFIX;
@@ -996,3 +996,4 @@ function delay(delayInms) {
 }
 
 //Bot coded by Aquaman#5186 
+
